@@ -3,7 +3,6 @@ layout: single
 title:  "Welcome to Jekyll!"
 categories: [coding, post]
 tag: [python, markdown, blog, jekyll]
-toc: true
 author_profile: false
 sidebar:
     nav: "docs"
@@ -27,7 +26,6 @@ search: false
 {% include video id="TpPwI_Lo0YY" provider="youtube" %}
 
 
-머지테스트
 
 머지해보자!!!
 커밋수동으로 해야됨??
@@ -56,4 +54,17 @@ I hope you like it!
 
 add google
 
-안녕하세요? 
+안녕하세요? \
+
+사진넣기 테스트
+
+![Warlock]({{site.url}}/images/2024-03-19-FirstPost.md/warlock.jpg)
+
+{{ site.url }}
+
+{{ site.title }}
+
+{{ site.description }}
+
+
+![Warlock]({{site.url}}/images/2024-03-19-FirstPost.md/warlock.jpg){: .img-width-half .align-center}

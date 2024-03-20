@@ -29,11 +29,11 @@
 
     @include breakpoint($large) {
       float: right;
-      width: calc(100% - #{$right-sidebar-width-narrow});
+      width: calc(100% - #{$right-sidebar-width-narrow}); //width: calc(100% - #{$right-sidebar-width-narrow});
     }
 
     @include breakpoint($x-large) {
-      width: calc(100% - #{$right-sidebar-width});
+      width: calc(100% - #{$right-sidebar-width}); //width: calc(100% - #{$right-sidebar-width});
     }
   }
 
@@ -513,9 +513,9 @@
   box-shadow: $box-shadow;
 
   .nav__title {
-    color: #fff;
+    color: #000; // #fff; - white
     font-size: $type-size-6;
-    background: $primary-color;
+    background: $toc-color; // $primary-color;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }
