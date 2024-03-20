@@ -27,6 +27,7 @@ search: false
 {% include video id="TpPwI_Lo0YY" provider="youtube" %}
 
 머지해보자!!!
+커밋수동으로 해야됨??
 
 # Welcome
 
