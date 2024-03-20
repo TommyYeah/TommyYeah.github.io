@@ -26,13 +26,13 @@ search: false
 
 {% include video id="TpPwI_Lo0YY" provider="youtube" %}
 
-<<<<<<< Updated upstream
+
 머지테스트
-=======
+
 머지해보자!!!
 커밋수동으로 해야됨??
 수정
->>>>>>> Stashed changes
+
 
 # Welcome
 
